@@ -1,0 +1,3 @@
+Flexo-App is a software as a service(SaaS) project. this is web-application built with anular, prima, postgreSQl and nestjs this software is used for managing teams across different platforms
+production-ready blueprint with exact commands, folder layouts, essential code snippets, Docker + compose, CI, DB schema (Prisma), auth design (JWT + refresh cookies), multi-tenancy approach (workspace-based). 
+This Application tends to handle multiple request 

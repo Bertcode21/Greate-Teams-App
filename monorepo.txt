@@ -1,0 +1,12 @@
+saas-project/
+├─ apps/
+│  ├─ backend/         # NestJS app
+│  └─ frontend/        # Angular app
+├─ infra/
+│  ├─ docker/          # Dockerfiles & compose
+│  └─ k8s/             # (optional) k8s manifests
+├─ scripts/
+├─ .github/workflows/
+├─ prisma/             # prisma schema + migrations
+├─ package.json
+└─ README.md
