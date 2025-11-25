@@ -7,7 +7,18 @@ export class UsersController{
  getUsers(): string{
     return "You have fetched all Users";
  }
- creareUser(): string{
+
+  @Post()
+ createUser(): string{
     return " Users Created Successfully"
+ } 
+
+  @Put()
+ PutUser(): string{
+    return " Users Updated Successfully"
+ }
+  @Delete()
+ DeleteUser(): string{
+    return " Users Deleted Successfully"
  }
 }
