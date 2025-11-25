@@ -1,0 +1,9 @@
+import { Module } from "@nestjs/common";
+ import { TweetController } from "./tweet.controller";
+
+@Module({
+    imports: [],
+    controllers: [TweetController],
+    providers: []
+})
+export class TweetModule{}
