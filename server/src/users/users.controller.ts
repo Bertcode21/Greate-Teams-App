@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Put, Delete } from "@nestjs/common";
+import { Controller, Get, Post, Patch, Put, Delete } from "@nestjs/common";
 
 //localhost:3300/Users
 @Controller("Users")
@@ -12,6 +12,10 @@ export class UsersController{
  createUser(): string{
     return " Users Created Successfully"
  } 
+ @Patch()
+ UpdateSingleUser(): string{
+   return "Selected User Updated successfully"
+ }
 
   @Put()
  PutUser(): string{
